@@ -1,0 +1,49 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.outer-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+main {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap : 0px;
+
+}
+app-board {
+  border : 1px  rgb(57, 57, 57) solid;
+  height: 200px ;
+}
+h1{
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px 0px;
+  width: 100%;
+  margin-right : 30px ;
+  color : white;
+
+}
+button {
+  font-size : 30px ;
+  padding: 10px;
+  border-radius: 10px;
+  border : none ;
+  margin : 10px ;
+
+}
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  cursor: pointer ;
+}
+h2 {
+  font-size: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
